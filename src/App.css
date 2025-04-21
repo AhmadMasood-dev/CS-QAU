@@ -9,12 +9,12 @@ body {
 a {
   text-decoration: none;
 }
-ul {
+/* ul {
   list-style: none;
-}
-li {
+} */
+/* li {
   list-style: none;
-}
+} */
 
 .top-banner {
   background-image: url(./assets/img/bg.jpg);
@@ -39,10 +39,54 @@ li {
   left: 0;
   background-color: rgba(0, 0, 0, 0.55);
 }
-/* .content {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 550px;
+
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  max-width: 800px;
+  height: 550px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  animation: slide 80s linear infinite;
+
+  height: 100%;
+}
+
+.slides img {
+  width: 100%; /* Ensure the images fill the container */
+  height: 100%; /* Ensure the height fits the container */
+  object-fit: cover; /* Ensure the image maintains aspect ratio */
+  flex-shrink: 0;
+  object-position: center;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
