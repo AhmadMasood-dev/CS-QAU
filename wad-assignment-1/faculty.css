@@ -1,0 +1,68 @@
+.faculty-section {
+  padding: 40px 20px;
+  background-color: #0f5132;
+}
+
+.page-header img {
+  padding: 24px 0;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+  border-radius: 10px;
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.faculty-card {
+  background-color: #0f5132;
+  padding: 20px;
+  border: 1px solid #198754;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.faculty-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.faculty-card h2 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.faculty-card h3 {
+  font-size: 16px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.faculty-card h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin-bottom: 6px;
+}
+
+.faculty-card ul {
+  list-style: disc inside;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.faculty-card p {
+  font-size: 14px;
+  color: whitesmoke;
+  margin-bottom: 4px;
+}
+ul {
+  list-style: none;
+}

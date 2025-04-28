@@ -1,0 +1,76 @@
+/* Academic Section */
+.academic-section {
+  background-color: #0f5132; /* bg-accent-dark */
+  padding: 80px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Academic items */
+.academic-item {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.academic-img {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.academic-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.academic-content {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.academic-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.academic-content p {
+  color: #ddd;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.see-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #198754; /* bg-primary */
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.see-more:hover {
+  background-color: #14532d; /* bg-accent on hover */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .academic-item {
+    flex-direction: column;
+  }
+
+  .academic-content {
+    text-align: center;
+    padding: 20px 10px;
+  }
+}
