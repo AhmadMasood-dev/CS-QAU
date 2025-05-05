@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS QAU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#006837",
+              secondary: "#1d1d1d",
+              accent: "#198754",
+              "accent-dark": "#0f5132",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="w-full h-screen/2 md:h-1/2 imgnow bg-accent-dark">
+      <div
+        class="relative z-10 flex flex-col flex-wrap items-center w-full px-5 py-4 md:flex-row"
+      >
+        <a
+          href="./index.html"
+          class="flex items-center mb-4 font-medium title-font md:mb-0"
+        >
+          <img src="./img/qau_logo.png" alt="QAU Logo" class="w-16 h-16 p-2" />
+        </a>
+
+        <nav
+          class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto"
+        >
+          <a
+            href="./index.html"
+            class="px-3 py-2 font-medium text-white cursor-pointer hover:text-accent"
+          >
+            Home
+          </a>
+          <a
+            href="./acadamics.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Academics
+          </a>
+          <a
+            href="./research.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Research
+          </a>
+          <a
+            href="./project.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Funded Project
+          </a>
+          <a
+            href="./admission.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Admission
+          </a>
+          <a
+            href="./faculty.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Faculty
+          </a>
+        </nav>
+
+        <a
+          href="https://qau.edu.pk/"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 mt-4 text-base font-medium text-white transition-colors border rounded cursor-pointer border-accent hover:text-accent focus:outline-none md:mt-0"
+        >
+          <span class="mr-2">QAU→</span>
+        </a>
+      </div>
+
+      <div
+        class="relative z-10 flex flex-col items-center justify-center h-64 px-4 text-center text-white md:h-72"
+      >
+        <h1 class="mb-2 text-2xl font-bold sm:text-3xl md:text-5xl">
+          Computer Science Department
+        </h1>
+        <span class="block mb-4 text-sm font-semibold sm:text-2xl md:text-4xl">
+          Quaid-I-Azam University
+        </span>
+        <h3 class="text-sm font-semibold sm:text-lg md:text-xl">
+          Be a force for good!
+        </h3>
+      </div>
+    </div>
+
+    <section class="px-5 py-24 text-white bg-accent-dark body-font">
+      <div
+        class="flex flex-col flex-wrap items-center w-full mb-20 text-center"
+      >
+        <h1 class="mb-2 text-2xl font-medium sm:text-3xl title-font">
+          Academics
+        </h1>
+        <p class="w-full leading-relaxed text-gray-300 lg:w-1/2">
+          The department offers PhD, MPhil, MS (IST), MS (DS) and BS degrees<br />
+          Each degree programme has a specific objective and focus.<br />
+          The course of study and syllabi for each degree is updated and is
+          inline with its objectives.
+        </p>
+      </div>
+
+      <!--  PhD -->
+      <div
+        class="container flex flex-col items-center mx-auto mb-20 md:flex-row"
+      >
+        <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+          <img
+            class="object-cover object-center w-full h-full rounded"
+            src="./img/phd.png"
+            alt="PhD Program"
+          />
+        </div>
+        <div
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-28 md:pl-16 md:items-start md:text-left"
+        >
+          <h1 class="mb-4 text-3xl font-medium title-font sm:text-4xl">PhD</h1>
+          <p class="mb-8 leading-relaxed">
+            PhD is the highest degree awarded in an academic discipline and is
+            the most satisfying and rewarding educational experience. Students
+            work closely with a faculty member, performing original research,
+            and tackling challenging and unsolved problems.
+          </p>
+          <a
+            href="https://cs.qau.edu.pk/Phd.php"
+            class="inline-flex px-6 py-2 text-lg text-white transition-all duration-300 ease-in delay-100 border-0 rounded bg-primary focus:outline-none hover:bg-accent"
+          >
+            See more
+          </a>
+        </div>
+      </div>
+
+      <!-- MPhil -->
+      <div
+        class="container flex flex-col items-center mx-auto mb-20 md:flex-row"
+      >
+        <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+          <img
+            class="object-cover object-center w-full h-full rounded"
+            src="./img/mphil.png"
+            alt="PhD Program"
+          />
+        </div>
+        <div
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-28 md:pl-16 md:items-start md:text-left"
+        >
+          <h1 class="mb-4 text-3xl font-medium title-font sm:text-4xl">
+            Mphil
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            The objective of M.Phil Computer Science programme is to train
+            students to initiate research work. The duration of M.Phil programme
+            is two years (4 semesters). MPhil is of 50 credit hours, 24 credit
+            hours for the course work and 26 credit hours for research work.
+            Each course is of 3 credit hours.
+          </p>
+          <a
+            href="https://cs.qau.edu.pk/Phd.php"
+            class="inline-flex px-6 py-2 text-lg text-white transition-all duration-300 ease-in delay-100 border-0 rounded bg-primary focus:outline-none hover:bg-accent"
+          >
+            See more
+          </a>
+        </div>
+      </div>
+
+      <!--  MS -->
+      <div
+        class="container flex flex-col items-center mx-auto mb-20 md:flex-row"
+      >
+        <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+          <img
+            class="object-cover object-center w-full h-full rounded"
+            src="./img/ms.png"
+            alt="MS IST Program"
+          />
+        </div>
+        <div
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-28 md:pl-16 md:items-start md:text-left"
+        >
+          <h1 class="mb-4 text-3xl font-medium title-font sm:text-4xl">MS</h1>
+          <p class="mb-8 leading-relaxed">
+            In today's Information Society, expertise in all forms of
+            information is required for progress in science, business, and
+            education. The main aim of MS programme in Information Science &
+            Technology (IST) is to design and develop information related
+            applications using information technology by understanding
+            relationship between digital information, people and technology.
+          </p>
+          <a
+            href="https://cs.qau.edu.pk/Phd.php"
+            class="inline-flex px-6 py-2 text-lg text-white transition-all duration-300 ease-in delay-100 border-0 rounded bg-primary focus:outline-none hover:bg-accent"
+          >
+            See more
+          </a>
+        </div>
+      </div>
+
+      <!--  MS-DS -->
+      <div
+        class="container flex flex-col items-center mx-auto mb-20 md:flex-row"
+      >
+        <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+          <img
+            class="object-cover object-center w-full h-full rounded"
+            src="./img/ms-ds.png"
+            alt="PhD Program"
+          />
+        </div>
+        <div
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-28 md:pl-16 md:items-start md:text-left"
+        >
+          <h1 class="mb-4 text-3xl font-medium title-font sm:text-4xl">
+            MS-DS
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Data Science has become important due to the need for analyzing and
+            understanding ever increasing data generated by a multitude of
+            sources. Students are exposed to different aspects of data science
+            including programming, data structures, algorithms, data analysis
+            and visualization, and big data analytics. These skills prepare
+            students to work effectively in local and international markets or
+            to pursue a PhD.
+          </p>
+          <a
+            href="https://cs.qau.edu.pk/Phd.php"
+            class="inline-flex px-6 py-2 text-lg text-white transition-all duration-300 ease-in delay-100 border-0 rounded bg-primary focus:outline-none hover:bg-accent"
+          >
+            See more
+          </a>
+        </div>
+      </div>
+
+      <!--  BS -->
+      <div class="container flex flex-col items-center mx-auto md:flex-row">
+        <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+          <img
+            class="object-cover object-center w-full h-full rounded"
+            src="./img/bs.png"
+            alt="BS Program"
+          />
+        </div>
+        <div
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-28 md:pl-16 md:items-start md:text-left"
+        >
+          <h1 class="mb-4 text-3xl font-medium title-font sm:text-4xl">BS</h1>
+          <p class="mb-8 leading-relaxed">
+            The BS Computer Science program at QAU provides a well-integrated
+            balance of theoretical and practical knowledge for developing
+            reliable software tools. It prepares students to design, implement,
+            and manage systems in various domains. Focus areas in final
+            semesters include Software Engineering, AI, Data Science,
+            Platform-based Development, Human-Centered Computing, Networks &
+            Security, and Information Management.
+          </p>
+          <a
+            href="https://cs.qau.edu.pk/Phd.php"
+            class="inline-flex px-6 py-2 text-lg text-white transition-all duration-300 ease-in delay-100 border-0 rounded bg-primary focus:outline-none hover:bg-accent"
+          >
+            See more
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-gray-400 bg-accent-dark body-font">
+      <div
+        class="container px-5 pt-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div class="w-96 md:mx-0 mx-auto text-center md:text-left">
+          <a
+            class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+          >
+            <img
+              src="./img/qau_logo.png"
+              alt=""
+              class="w-16 h-16 text-white p-2 rounded-full"
+            />
+
+            <span class="ml-3 text-xl">QAU</span>
+          </a>
+
+          <p class="mt-2 text-sm text-gray-200 leading-8">
+            Department of Computer Sciences
+          </p>
+          <p class="mt-2 text-sm text-gray-200 leading-8">
+            Quaid-i-Azam University,
+          </p>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+        >
+          <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-white tracking-widest text-sm mb-3"
+            >
+              Our Programs
+            </h2>
+            <nav class="list-none mb-10 leading-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  PhD (Computer Science)
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  MS (Information Science & Technology)
+                </a>
+              </li>
+
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  MPhil (Computer Science)
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  MS (Data Science)
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  BS (Computer Science)
+                </a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-white tracking-widest text-sm mb-3"
+            >
+              Contact US
+            </h2>
+            <nav class="list-none mb-10 leading-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  Islamabad 45320, Pakistan
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  Email: cs@qau.edu.pk
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  Phone: +92-51-9064 2057
+                </a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bg-accent-dark bg-opacity-75">
+        <div
+          class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+        >
+          <p class="text-gray-400 text-sm text-center sm:text-left">
+            © 2020 CS —
+            <a
+              href="https://twitter.com/knyttneve"
+              rel="noopener noreferrer"
+              class="text-gray-500 ml-1"
+              target="_blank"
+            >
+              @AhmadMasood
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
