@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS QAU</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#006837",
+              secondary: "#1d1d1d",
+              accent: "#198754",
+              "accent-dark": "#0f5132",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="w-full h-screen/2 md:h-1/2 imgnow bg-accent-dark">
+      <div
+        class="relative z-10 flex flex-col flex-wrap items-center w-full px-5 py-4 md:flex-row"
+      >
+        <a
+          href="./index.html"
+          class="flex items-center mb-4 font-medium title-font md:mb-0"
+        >
+          <img src="./img/qau_logo.png" alt="QAU Logo" class="w-16 h-16 p-2" />
+        </a>
+
+        <nav
+          class="flex flex-wrap items-center justify-center text-base md:ml-auto md:mr-auto"
+        >
+          <a
+            href="./index.html"
+            class="px-3 py-2 font-medium text-white cursor-pointer hover:text-accent"
+          >
+            Home
+          </a>
+          <a
+            href="./acadamics.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Academics
+          </a>
+          <a
+            href="./research.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Research
+          </a>
+          <a
+            href="./project.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Funded Project
+          </a>
+          <a
+            href="./admission.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Admission
+          </a>
+          <a
+            href="./faculty.html"
+            class="px-3 py-2 font-medium text-white transition-all cursor-pointer hover:text-accent"
+          >
+            Faculty
+          </a>
+        </nav>
+
+        <a
+          href="https://qau.edu.pk/"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 mt-4 text-base font-medium text-white transition-colors border rounded cursor-pointer border-accent hover:text-accent focus:outline-none md:mt-0"
+        >
+          <span class="mr-2">QAU→</span>
+        </a>
+      </div>
+
+      <div
+        class="relative z-10 flex flex-col items-center justify-center h-64 px-4 text-center text-white md:h-72"
+      >
+        <h1 class="mb-2 text-2xl font-bold sm:text-3xl md:text-5xl">
+          Computer Science Department
+        </h1>
+        <span class="block mb-4 text-sm font-semibold sm:text-2xl md:text-4xl">
+          Quaid-I-Azam University
+        </span>
+        <h3 class="text-sm font-semibold sm:text-lg md:text-xl">
+          Be a force for good!
+        </h3>
+      </div>
+    </div>
+
+    <section class="text-white bg-accent-dark body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div
+          class="flex flex-wrap w-full mb-20 flex-col items-center text-center"
+        >
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2">
+            Admissions
+          </h1>
+          <p class="lg:w-1/2 w-full leading-relaxed text-gray-300">
+            Admission in the department for various degree programmes are
+            offered in Spring and Fall semesters.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap -m-12">
+          <!-- Program 1 -->
+          <div class="p-12 md:w-1/2 flex flex-col items-start">
+            <span
+              class="inline-block py-1 px-2 rounded bg-indigo-50 font-bold text-accent text-xs tracking-widest"
+              >Every Semester</span
+            >
+            <h2 class="sm:text-3xl text-2xl title-font font-medium mt-4 mb-4">
+              PhD (Computer Science)
+            </h2>
+            <p class="leading-relaxed mb-4">
+              PhD is the highest degree awarded in an academic discipline. In
+              our PhD programme, students work closely with a faculty member,
+              performing original research, and tackling challenging and
+              unsolved problems.
+            </p>
+            <p class="mb-2 font-semibold">
+              The minimum requirements for admission are:
+            </p>
+            <ul class="list-disc px-6 mb-6">
+              <li>MPhil (Computer Science or computing related discipline)</li>
+              <li>
+                MS (18 years Education) with Computer Science or computing
+                related discipline
+              </li>
+              <li>
+                Must pass the test and interview arranged by the department
+              </li>
+            </ul>
+            <div class="py-4 border-b-2 border-gray-100 mt-auto w-full">
+              <strong
+                ><a href="https://cs.qau.edu.pk/Phd.php" class="text-indigo-500"
+                  >Click here to see more details about this programme</a
+                ></strong
+              >
+            </div>
+          </div>
+
+          <!-- Program 2 -->
+          <div class="p-12 md:w-1/2 flex flex-col items-start">
+            <span
+              class="inline-block py-1 px-2 rounded bg-indigo-50 font-bold text-accent text-xs tracking-widest"
+              >Fall Semester</span
+            >
+            <h2 class="sm:text-3xl text-2xl title-font font-medium mt-4 mb-4">
+              MPhil (Computer Science)
+            </h2>
+            <p class="leading-relaxed mb-4">
+              The objective of M.Phil Computer Science program is to train
+              students to initiate research work.
+            </p>
+            <p class="mb-2 font-semibold">
+              The minimum requirements for admission are:
+            </p>
+            <ul class="list-disc px-6 mb-6">
+              <li>
+                M.Sc. (Computer Science, Software Engineering, Information
+                Technology)
+              </li>
+              <li>4 years BS (CS, SE, IT)</li>
+              <li>
+                Must pass test (sample test available) and interview arranged by
+                the department
+              </li>
+            </ul>
+            <div class="py-4 border-b-2 border-gray-100 mt-auto w-full">
+              <strong
+                ><a
+                  href="https://cs.qau.edu.pk/Mphil.php"
+                  class="text-indigo-500"
+                  >Click here to see more details about this programme</a
+                ></strong
+              >
+            </div>
+          </div>
+
+          <!-- Program 3 -->
+          <div class="p-12 md:w-1/2 flex flex-col items-start">
+            <span
+              class="inline-block py-1 px-2 rounded bg-indigo-50 font-bold text-accent text-xs tracking-widest"
+              >Every Semester</span
+            >
+            <h2 class="sm:text-3xl text-2xl title-font font-medium mt-4 mb-4">
+              MS (Information Science & Technology)
+            </h2>
+            <p class="leading-relaxed mb-4">
+              The aim is to design and develop information applications using IT
+              by understanding the relationship between digital information,
+              people, and technology.
+            </p>
+            <p class="mb-2 font-semibold">
+              The minimum requirements for admission are:
+            </p>
+            <ul class="list-disc px-6 mb-6">
+              <li>
+                16 years of education: BS (4 years) or MSc in computing-related
+                disciplines
+              </li>
+              <li>Experience in digital information management</li>
+              <li>Must pass test and interview arranged by the department</li>
+            </ul>
+            <div class="py-4 border-b-2 border-gray-100 mt-auto w-full">
+              <strong
+                ><a
+                  href="https://cs.qau.edu.pk/MS-IST.php"
+                  class="text-indigo-500"
+                  >Click here to see more details about this programme</a
+                ></strong
+              >
+            </div>
+          </div>
+
+          <!-- Program 4 -->
+          <div class="p-12 md:w-1/2 flex flex-col items-start">
+            <span
+              class="inline-block py-1 px-2 rounded bg-indigo-50 font-bold text-accent text-xs tracking-widest"
+              >Every Semester</span
+            >
+            <h2 class="sm:text-3xl text-2xl title-font font-medium mt-4 mb-4">
+              MS (Data Science)
+            </h2>
+            <p class="leading-relaxed mb-4">
+              Students are exposed to programming, data analysis, visualization,
+              and big data analytics. It prepares them for careers and further
+              PhD in data science.
+            </p>
+            <p class="mb-2 font-semibold">
+              The minimum requirements for admission are:
+            </p>
+            <ul class="list-disc px-6 mb-6">
+              <li>BS or MSc (16 years) in computing disciplines</li>
+              <li>
+                OR BS/MSc (non-computing) with 2 math + 1 stats courses in final
+                degree
+              </li>
+              <li>
+                Must pass non-credit deficiency courses (if needed) and
+                departmental test/interview
+              </li>
+            </ul>
+            <div class="py-4 border-b-2 border-gray-100 mt-auto w-full">
+              <strong
+                ><a
+                  href="https://cs.qau.edu.pk/MS-DS.php"
+                  class="text-indigo-500"
+                  >Click here to see more details about this programme</a
+                ></strong
+              >
+            </div>
+          </div>
+
+          <!-- Program 5 -->
+          <div class="p-12 md:w-1/2 flex flex-col items-start">
+            <span
+              class="inline-block py-1 px-2 rounded bg-indigo-50 font-bold text-accent text-xs tracking-widest"
+              >Fall Semester</span
+            >
+            <h2 class="sm:text-3xl text-2xl title-font font-medium mt-4 mb-4">
+              BS (Computer Science)
+            </h2>
+            <p class="leading-relaxed mb-4">
+              Trains graduates to design, implement, and manage systems with
+              computational, communication, and multimedia capabilities.
+            </p>
+            <p class="mb-2 font-semibold">
+              The minimum requirements for admission are:
+            </p>
+            <ul class="list-disc px-6 mb-6">
+              <li>Intermediate with Mathematics</li>
+              <li>FSc pre-medical with Additional Mathematics</li>
+              <li>Or equivalent 12-year education with Mathematics</li>
+            </ul>
+            <div class="py-4 border-b-2 border-gray-100 mt-auto w-full">
+              <strong
+                ><a href="https://cs.qau.edu.pk/BS.php" class="text-indigo-500"
+                  >Click here to see more details about this programme</a
+                ></strong
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-gray-400 bg-accent-dark body-font">
+      <div
+        class="container px-5 pt-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div class="w-96 md:mx-0 mx-auto text-center md:text-left">
+          <a
+            class="flex title-font font-medium items-center md:justify-start justify-center text-white"
+          >
+            <img
+              src="./img/qau_logo.png"
+              alt=""
+              class="w-16 h-16 text-white p-2 rounded-full"
+            />
+
+            <span class="ml-3 text-xl">QAU</span>
+          </a>
+
+          <p class="mt-2 text-sm text-gray-200 leading-8">
+            Department of Computer Sciences
+          </p>
+          <p class="mt-2 text-sm text-gray-200 leading-8">
+            Quaid-i-Azam University,
+          </p>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+        >
+          <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-white tracking-widest text-sm mb-3"
+            >
+              Our Programs
+            </h2>
+            <nav class="list-none mb-10 leading-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  PhD (Computer Science)
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  MS (Information Science & Technology)
+                </a>
+              </li>
+
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  MPhil (Computer Science)
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  MS (Data Science)
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  BS (Computer Science)
+                </a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+            <h2
+              class="title-font font-medium text-white tracking-widest text-sm mb-3"
+            >
+              Contact US
+            </h2>
+            <nav class="list-none mb-10 leading-10">
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  Islamabad 45320, Pakistan
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  Email: cs@qau.edu.pk
+                </a>
+              </li>
+              <li>
+                <a class="text-gray-400 hover:text-white">
+                  Phone: +92-51-9064 2057
+                </a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="bg-accent-dark bg-opacity-75">
+        <div
+          class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
+        >
+          <p class="text-gray-400 text-sm text-center sm:text-left">
+            © 2020 CS —
+            <a
+              href="https://twitter.com/knyttneve"
+              rel="noopener noreferrer"
+              class="text-gray-500 ml-1"
+              target="_blank"
+            >
+              @AhmadMasood
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
